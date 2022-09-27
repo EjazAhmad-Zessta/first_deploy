@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Django image</title>
+    <base href="/">
     <link rel="stylesheet" type = "text/css" href="{% static 'css/mystyle.css' %}"/>
 </head>
 <body>
     <h1>Hello this is a picture of nature!</h1>
     {{show_me}}
     <br>
-    <img src= {% static "images/nature.png" %} alt="Uh oh image not found" />
+    <img src= {% static "images/nature.jpg" %} alt="Uh oh image not found" />
     
 </body>
 </html>
